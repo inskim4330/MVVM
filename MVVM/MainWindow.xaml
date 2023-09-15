@@ -15,12 +15,21 @@
         <ListView Name="UserGrid" Grid.Row="1" Margin="4,178,12,13" ItemsSource="{Binding Users}">
             <ListView.View>
                 <GridView x:Name="grdTest">
+<<<<<<< abc
+                    <GridViewColumn Header="abcUserId" DisplayMemberBinding="{Binding UserId}" Width="50" />
+                    <GridViewColumn Header="abcFirst Name" DisplayMemberBinding="{Binding FirstName}" Width="80" />
+                    <GridViewColumn Header="abcLast Name" DisplayMemberBinding="{Binding LastName}" Width="100" />
+                    <GridViewColumn Header="abcCity" DisplayMemberBinding="{Binding City}" Width="80" />
+                    <GridViewColumn Header="abcState" DisplayMemberBinding="{Binding State}" Width="80" />
+                    <GridViewColumn Header="abcCountry" DisplayMemberBinding="{Binding Country}" Width="100" />
+======
                     <GridViewColumn Header="aboUserId" DisplayMemberBinding="{Binding UserId}" Width="50" />
                     <GridViewColumn Header="aboFirst Name" DisplayMemberBinding="{Binding FirstName}" Width="80" />
                     <GridViewColumn Header="aboLast Name" DisplayMemberBinding="{Binding LastName}" Width="100" />
                     <GridViewColumn Header="aboCity" DisplayMemberBinding="{Binding City}" Width="80" />
                     <GridViewColumn Header="aboState" DisplayMemberBinding="{Binding State}" Width="80" />
                     <GridViewColumn Header="aboCountry" DisplayMemberBinding="{Binding Country}" Width="100" />
+>>>>>>> master
                 </GridView>
             </ListView.View>
         </ListView>
