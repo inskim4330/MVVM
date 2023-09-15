@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
     <Grid Margin="0,0,0,20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -14,12 +15,12 @@
         <ListView Name="UserGrid" Grid.Row="1" Margin="4,178,12,13" ItemsSource="{Binding Users}">
             <ListView.View>
                 <GridView x:Name="grdTest">
-                    <GridViewColumn Header="UserId" DisplayMemberBinding="{Binding UserId}" Width="50" />
-                    <GridViewColumn Header="First Name" DisplayMemberBinding="{Binding FirstName}" Width="80" />
-                    <GridViewColumn Header="Last Name" DisplayMemberBinding="{Binding LastName}" Width="100" />
-                    <GridViewColumn Header="City" DisplayMemberBinding="{Binding City}" Width="80" />
-                    <GridViewColumn Header="State" DisplayMemberBinding="{Binding State}" Width="80" />
-                    <GridViewColumn Header="Country" DisplayMemberBinding="{Binding Country}" Width="100" />
+                    <GridViewColumn Header="aUserId" DisplayMemberBinding="{Binding UserId}" Width="50" />
+                    <GridViewColumn Header="aFirst Name" DisplayMemberBinding="{Binding FirstName}" Width="80" />
+                    <GridViewColumn Header="aLast Name" DisplayMemberBinding="{Binding LastName}" Width="100" />
+                    <GridViewColumn Header="aCity" DisplayMemberBinding="{Binding City}" Width="80" />
+                    <GridViewColumn Header="aState" DisplayMemberBinding="{Binding State}" Width="80" />
+                    <GridViewColumn Header="aCountry" DisplayMemberBinding="{Binding Country}" Width="100" />
                 </GridView>
             </ListView.View>
         </ListView>
